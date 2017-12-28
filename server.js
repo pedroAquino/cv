@@ -16,7 +16,7 @@ var server = {
 	},
 
 	setViewEngine : function(app) {
-		app.set('views',  __dirname + '/app/public');
+		app.set('views',  __dirname + '/app');
 		app.set('view engine', 'pug');
 
 		return app;
