@@ -1,6 +1,6 @@
 var express = require('express'),
 	router = express.Router(),
-	ContentService = require('../services/content.service');
+	ContentService = require('../services/content/content.service');
 
 router.get('/', function(request, response, next) {
 	var contentService = new ContentService();
