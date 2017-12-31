@@ -17,8 +17,6 @@ var server = {
 
 	setViewEngine : function(app) {
 		app.set('views',  __dirname + '/app');
-		//pp.set('view engine', 'pug');
-		//app.use(express.static(__dirname + '/app'));
 		app.engine('html', require('ejs').renderFile);
 		app.set('view engine', 'html');
 
