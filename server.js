@@ -17,7 +17,10 @@ var server = {
 
 	setViewEngine : function(app) {
 		app.set('views',  __dirname + '/app');
-		app.set('view engine', 'pug');
+		//pp.set('view engine', 'pug');
+		//app.use(express.static(__dirname + '/app'));
+		app.engine('html', require('ejs').renderFile);
+		app.set('view engine', 'html');
 
 		return app;
 	},

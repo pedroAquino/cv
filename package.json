@@ -19,6 +19,7 @@
   "homepage": "https://github.com/pedroAquino/OnlineCV#readme",
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "ejs": "^2.5.7",
     "express": "^4.14.0",
     "jquery": "^3.2.1",
     "pug": "^2.0.0-beta9",
