@@ -84,7 +84,8 @@
                       <h3 class="subtitle"><%= experiences.title %></h3>                  
                       <% experiences.workplaces.forEach(function(workplace){ %>
                       <div class="top-distance">
-                            <a class="light-gray state-bold-print" href="<%= workplace.address %>" target="_blank"> <%= workplace.name %></a>
+                            <a class="light-gray state-hidden-print" href="<%= workplace.address %>" target="_blank"> <%= workplace.name %></a>
+                            <a class="light-gray state-bold-print state-hidden-screen" href="#" target="_blank"> <%= workplace.name %></a>
                             <% workplace.periods.forEach(function(period){ %>
                                 <p><%= period %></p>
                             <% }); %>
@@ -99,7 +100,8 @@
                       <h3 class="subtitle"><%= education.title %></h3>
                       <div class="top-distance">
                         <% education.courses.forEach(function(course){ %>
-                            <a class="light-gray state-bold-print" href="<%= course.address %>" target="_blank"><%= course.institution %></a>
+                            <a class="light-gray state-hidden-print" href="<%= course.address %>" target="_blank"><%= course.institution %></a>
+                            <a class="light-gray state-bold-print state-hidden-screen" href="#" target="_blank"><%= course.institution %></a>
                             <p><%= course.name %> - <%= course.status %></p>
                         <% }); %>
                       </div>
