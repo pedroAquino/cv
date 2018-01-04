@@ -1,10 +1,9 @@
 module.exports = {
+    'language': 'pt-BR',
     'disclaiMerList': [
         'desenvolvedor web fullstack',
-        'c# .net',
-        'node.js (mean stack)',
-        'desenvolvedor mobile ionic e xamarin',
-        'scrum master e team leader'
+        'proficiente em javascript e ASP.NET',
+        'scrum master, agilista'
     ],
     'aboutMe': {
         'title': 'SOBRE MIM',
@@ -13,16 +12,16 @@ module.exports = {
         uma carreira da qual não me arrependo em, praticamente, nada ! Tenho 25 anos, sou solteiro, moro  em Ribeirão Pires - SP (região metropolitana).
         <span class="state-hidden">
             &nbsp; trabalhei em diversos lugares e aprendi diversas linguagens, mas o amor da minha vida sempre foi javascript.
-            Me considero proficiente em javascript, css, html, c#.net e, nos últimos tempos tenho buscado novos mares, navegando pelas águas desconhecidas do node.js, não preciso dizer que já estou viciado ! 
+            Me considero proficiente em javascript, css, html, c#.net e, nos últimos tempos tenho buscado aprender python e node.js. 
             Em 2015, tive a oportunidade de passar 6 meses na <span class="dark bold">irlanda &nbsp;</span>
-            foi uma experiência fantástica, e ainda pude me tornar proficiante em inglês. 
-            ambém sou agilista, fissurado por produtividade. Nas horas vagas eu jogo video-game, leio, viajo e 
-            tento  aprender novas tecnologias.
+            foi uma experiência fantástica, e ainda pude me tornar fluente em inglês. 
+            Também sou agilista, fissurado por produtividade. Nas horas vagas eu leio, jogo video-game, viajo e 
+            me dedico a aprender novas tecnologias.
         </span>`,
         'label': 'ver mais'
     },
     'habilities': {
-        'title': 'HABILIDADES',
+        'title': 'PRINCIPAIS HABILIDADES',
         'content': [
             {
                 'topic': 'Inglês',
