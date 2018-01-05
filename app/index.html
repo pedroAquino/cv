@@ -41,13 +41,23 @@
                       <h3 class="subtitle"><%= habilities.title%></h3>
                       <div class="state-hidden-print">
                         <% habilities.content.forEach(function(item){ %>
-                            <div class="top-distance">
-                                <%= item.topic %>
-                                <br/>
-                                <div class="bar">
-                                    <%- item.level %>
+                            <% if (item.topic !== 'Inglês') {%>
+                                <div class="top-distance">
+                                    <%= item.topic %>
+                                    <br/>
+                                    <div class="bar">
+                                        <div class="bar-child <%= item.level %>"></div>
+                                    </div>
                                 </div>
-                            </div>
+                            <% } else if (language === 'pt-BR') { %>
+                                <div class="top-distance">
+                                    <%= item.topic %>
+                                    <br/>
+                                    <div class="bar">
+                                        <div class="bar-child <%= item.level %>"></div>
+                                    </div>
+                                </div>
+                            <% } %>
                         <% }); %>
                       </div>
                    </div>

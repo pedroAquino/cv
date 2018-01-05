@@ -24,50 +24,55 @@ module.exports = {
         'title': 'PRINCIPAIS HABILIDADES',
         'content': [
             {
-                'topic': 'Inglês',
-                'level': '<div class="bar-child advanced"></div>',
+                'topic': 'Angular 4+',
+                'level': 'advanced',
                 'levelText': 'avançado'
             },
             {
-                'topic': 'Javascript / Node.js',
-                'level': '<div class="bar-child advanced"></div>',
+                'topic': 'HTML5 / Web Accessibility',
+                'level': 'advanced',
                 'levelText': 'avançado'
             },
             {
-                'topic': 'HTML / CSS / Jquery',
-                'level': '<div class="bar-child advanced"></div>',
+                'topic': 'CSS3',
+                'level': 'advanced',
                 'levelText': 'avançado'
             },
             {
                 'topic': 'Compiladores CSS (SASS / Stylus)',
-                'level': '<div class="bar-child basic"></div>',
+                'level': 'basic',
                 'levelText': 'básico'
             },
             {
                 'topic': 'Ionic',
-                'level': '<div class="bar-child intermediate"></div>',
+                'level': 'intermediate',
                 'levelText': 'intermediário'
             },
             {
                 'topic': 'Angular.js',
-                'level': '<div class="bar-child intermediate"></div>',
+                'level': 'intermediate',
                 'levelText': 'intermediário'
             },
             {
                 'topic': 'Xamarin',
-                'level': '<div class="bar-child intermediate"></div>',
+                'level': 'intermediate',
                 'levelText': 'intermediário'
             },
             {
                 'topic': 'C#.NET',
-                'level': '<div class="bar-child advanced"></div>',
+                'level': 'advanced',
                 'levelText': 'avançado'
             },
             {
                 'topic': 'DevOps / Powershell',
-                'level': '<div class="bar-child basic"></div>',
+                'level': 'basic',
                 'levelText': 'básico'
             },
+            {
+                'topic': 'Inglês',
+                'level': 'advanced',
+                'levelText': 'avançado'
+            }
         ]
     },
     'certifications': {
