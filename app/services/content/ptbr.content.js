@@ -29,6 +29,11 @@ module.exports = {
                 'levelText': 'avançado'
             },
             {
+                'topic': 'Angular.js',
+                'level': 'advanced',
+                'levelText': 'avançado'
+            },
+            {
                 'topic': 'HTML5 / Web Accessibility',
                 'level': 'advanced',
                 'levelText': 'avançado'
@@ -40,39 +45,39 @@ module.exports = {
             },
             {
                 'topic': 'Compiladores CSS (SASS / Stylus)',
-                'level': 'basic',
-                'levelText': 'básico'
-            },
-            {
-                'topic': 'Ionic',
-                'level': 'intermediate',
-                'levelText': 'intermediário'
-            },
-            {
-                'topic': 'Angular.js',
-                'level': 'intermediate',
-                'levelText': 'intermediário'
-            },
-            {
-                'topic': 'Xamarin',
-                'level': 'intermediate',
-                'levelText': 'intermediário'
-            },
-            {
-                'topic': 'C#.NET',
                 'level': 'advanced',
                 'levelText': 'avançado'
             },
             {
-                'topic': 'DevOps / Powershell',
+                'topic': 'ASP.NET (MVC / Web Forms / WCF / Web API), C#',
+                'level': 'advanced',
+                'levelText': 'avançado'
+            },
+            {
+                'topic': 'Mobile Híbrido (Web View) / Ionic',
+                'level': 'intermediate',
+                'levelText': 'intermediário'
+            },
+            {
+                'topic': 'Google maps javascript API',
+                'level': 'intermediate',
+                'levelText': 'intermediário'
+            },
+            {
+                'topic': 'CSS Animations',
+                'level': 'intermediate',
+                'levelText': 'intermediário'
+            },
+            {
+                'topic': 'Powershell Script',
                 'level': 'basic',
                 'levelText': 'básico'
             },
             {
-                'topic': 'Inglês',
-                'level': 'advanced',
-                'levelText': 'avançado'
-            }
+                'topic': 'DevOps / Configuração de CI (Team City / Cruise Control.NET)',
+                'level': 'basic',
+                'levelText': 'básico'
+            },
         ]
     },
     'certifications': {
