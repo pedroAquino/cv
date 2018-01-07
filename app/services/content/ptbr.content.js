@@ -78,6 +78,7 @@ module.exports = {
     'certifications': {
         'title': 'CERTIFICAÇÕES',
         'emitters': [
+            /*
             {
                 'name': 'Scrum.org',
                 'certificates': [
@@ -91,20 +92,17 @@ module.exports = {
                     }
                 ]
             },
+            */
             {
                 'name': 'Microsoft (MCSD Web Developer)',
                 'certificates': [
                     {
                         'title': '70-480 - Programando em HTML5 e CSS3.',
-                        'address': '#'
+                        'address': 'https://www.microsoft.com/pt-br/learning/exam-70-480.aspx'
                     },
                     {
                         'title': '70-486 - Desenvolvendo aplicações ASP.NET.',
-                        'address': '#'
-                    },
-                    {
-                        'title': '70-487 - Desenvolvendo para Microsoft azure e Web Services.',
-                        'address': '#'
+                        'address': 'https://www.microsoft.com/pt-br/learning/exam-70-486.aspx'
                     }
                 ]
             }
