@@ -9,7 +9,7 @@ module.exports = {
         'title': 'SOBRE MIM',
         'content': `Minha história com o desenvolvimento de software começou relativamente cedo. Com 15 anos fiz meus 
         primeiros programas em access (shame !), e daí não parei mais. De lá para cá foram dez longos anos e
-        uma carreira da qual não me arrependo em, praticamente, nada ! Tenho 25 anos, sou solteiro, moro  em Ribeirão Pires - SP (região metropolitana).
+        uma carreira da qual não me arrependo em, praticamente, nada ! Tenho <strike id="oldAge"></strike> <span class="dark bold" id="age"></span>, sou solteiro, moro  em Ribeirão Pires - SP (região metropolitana).
         <span class="state-hidden">
             Trabalhei em diversos lugares e aprendi diversas linguagens, mas o amor da minha vida sempre foi javascript.
             Me considero proficiente em javascript, css, html, c#.net e, nos últimos tempos tenho buscado aprender python e node.js. 
