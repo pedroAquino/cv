@@ -11,10 +11,10 @@ module.exports = {
         primeiros programas em access (shame !), e daí não parei mais. De lá para cá foram dez longos anos e
         uma carreira da qual não me arrependo em, praticamente, nada ! Tenho 25 anos, sou solteiro, moro  em Ribeirão Pires - SP (região metropolitana).
         <span class="state-hidden">
-            &nbsp; trabalhei em diversos lugares e aprendi diversas linguagens, mas o amor da minha vida sempre foi javascript.
+            Trabalhei em diversos lugares e aprendi diversas linguagens, mas o amor da minha vida sempre foi javascript.
             Me considero proficiente em javascript, css, html, c#.net e, nos últimos tempos tenho buscado aprender python e node.js. 
-            Em 2015, tive a oportunidade de passar 6 meses na <span class="dark bold">irlanda &nbsp;</span>
-            foi uma experiência fantástica, e ainda pude me tornar fluente em inglês. 
+            Em 2015, tive a oportunidade de passar 6 meses na <span class="dark bold">irlanda</span>.
+            Foi uma experiência fantástica, e ainda pude me tornar <span class="dark bold">fluente em inglês</span>. 
             Também sou agilista, fissurado por produtividade. Nas horas vagas eu leio, jogo video-game, viajo e 
             me dedico a aprender novas tecnologias.
         </span>`,
@@ -39,12 +39,7 @@ module.exports = {
                 'levelText': 'avançado'
             },
             {
-                'topic': 'CSS3',
-                'level': 'advanced',
-                'levelText': 'avançado'
-            },
-            {
-                'topic': 'Compiladores CSS (SASS / Stylus)',
+                'topic': 'CSS3 / Compiladores CSS (SASS / Stylus)',
                 'level': 'advanced',
                 'levelText': 'avançado'
             },
@@ -54,12 +49,7 @@ module.exports = {
                 'levelText': 'avançado'
             },
             {
-                'topic': 'Mobile Híbrido (Web View) / Ionic',
-                'level': 'intermediate',
-                'levelText': 'intermediário'
-            },
-            {
-                'topic': 'Google maps javascript API',
+                'topic': 'Mobile Híbrido (Web View) / Ionic / Sencha Touch',
                 'level': 'intermediate',
                 'levelText': 'intermediário'
             },
@@ -69,12 +59,17 @@ module.exports = {
                 'levelText': 'intermediário'
             },
             {
-                'topic': 'Powershell Script',
+                'topic': 'DevOps / Configuração de CI (Team City / Cruise Control.NET)',
                 'level': 'basic',
                 'levelText': 'básico'
             },
             {
-                'topic': 'DevOps / Configuração de CI (Team City / Cruise Control.NET)',
+                'topic': 'node.js',
+                'level': 'basic',
+                'levelText': 'básico'
+            },
+            {
+                'topic': 'python',
                 'level': 'basic',
                 'levelText': 'básico'
             },
