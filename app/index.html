@@ -93,7 +93,19 @@
                                 <%- workplace.periods.join(', ') %> &nbsp;
                             </p>
                             <p class="light-gray"><%= workplace.role %></p>
-                            <p> <%= workplace.description %> &nbsp;<span class="light-gray"><%= workplace.deliveries.title %> </span> <%- workplace.deliveries.items.join(', ')  %> </p>
+                            <p> <%= workplace.description %></p>
+                            <p class="light-gray"><%= workplace.deliveries.title %></p>
+                            <ul class="list">
+                                <% workplace.deliveries.items.forEach(function(delivery){ %>
+                                    <li><%= delivery %></li>
+                                <% }); %>
+                            </ul>
+                            <p class="light-gray"><%= workplace.activities.title %></p>
+                            <ul class="list">
+                                <% workplace.activities.items.forEach(function(activity){ %>
+                                    <li><%= activity %></li>
+                                <% }); %>
+                            </ul>
                       </div>
                       <% }); %>
                    </div>

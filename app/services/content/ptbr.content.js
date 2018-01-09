@@ -112,16 +112,24 @@ module.exports = {
         'title': 'EXPERIÊNCIAS',
         'workplaces': [
             {
-                'name': 'BRQ Tecnologia.',
+                'name': 'BRQ Tecnologia / São Paulo',
                 'address': 'http://www.brq.com/',
                 'periods': ['novembro / 2016 - atual'],
                 'role': 'desenvolvedor frontend',
-                'description': `Na BRQ tive a oportunidade de prestar consultoria para o banco Itaú,um dos maiores bancos da américa latina. 
-                Trabalhei diretamente no desenvolvimento do app (android e ios) do banco, utilizando C#.NET (chamado no app nativo como uma web view) 
-                e linguagens de frontend em geral (CSS, HTML, javascript, jquery). Tive também a oportunidade de participar de uma das primeiras equipes a 
-                utilizar o framework javascript Angular2 nas webviews do aplicativo do banco.`,
+                'description': `A BRQ é uma consultoria de desenvolvimento de software especializada em atender empresas do setor
+                financeiro. Atualmente trabalho prestando serviço para o Itaú Unibanco, tendo como responsabilidades principais desenvolver
+                novas funcionalidades para o aplicativo móvel do banco, utilizando com tudo, tecnologias web.`,
+                'activities': {
+                    'title': 'atividades desenvolvidas',
+                    'items': [
+                        'desenvolvimento de interfaces web responsivas utilizando ASP.NET Web Forms',
+                        'integração de interface com serviços de backend para buscar e enviar dados',
+                        'desenvolvimento de componentes web reutilizáveisem Angular2',
+                        'integração de interfaces web com app nativo (android/iOS) em que ela deve ser renderizada'
+                    ]
+                },
                 'deliveries': {
-                    'title': 'principais entregas:',
+                    'title': 'principais entregas e habilidades desenvolvidas',
                     'items': [
                         'redesign do resgate de poupança do app Itaú.',
                         'fluxo de contratação e cancelamento de seguro de vida através do app Itaú.'
