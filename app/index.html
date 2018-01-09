@@ -71,7 +71,10 @@
                                 <p class="light-gray state-bold-print"><%= emitter.name %></p>
                                 <ul class="list">
                                     <% emitter.certificates.forEach(function(certificate){ %>
-                                        <li> <a href="<%= certificate.address %>" target="_blank"><%= certificate.title %></a></li>
+                                        <li>
+                                            <a class="state-hidden-print" href="<%= certificate.address %>" target="_blank"><%= certificate.title %></a>
+                                            <a class="state-hidden-screen" href="<%= certificate.address %>" target="_blank"><%= certificate.title %></a>
+                                        </li>
                                     <% }); %>
                                 </ul>
                             </div>
