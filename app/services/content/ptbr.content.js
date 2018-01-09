@@ -118,11 +118,15 @@ module.exports = {
                 'role': 'desenvolvedor  .NET',
                 'description': `Na BRQ tive a oportunidade de prestar consultoria para o banco Itaú,um dos maiores bancos da américa latina. 
                 Trabalhei diretamente no desenvolvimento do app (android e ios) do banco, utilizando C#.NET (chamado no app nativo como uma web view) 
-                e linguagens de frontend em geral (CSS, HTML, javascript, jquery).`,
+                e linguagens de frontend em geral (CSS, HTML, javascript, jquery). Tive também a oportunidade de participar de uma das primeiras equipes a 
+                utilizar o framework Angular2 no aplicativo do banco. Isto proporcionou um grande aprendizado e aprimoramento em minhas habilidades de frontend.
+                Tabmém aprendi a lidar com os processos que envolvem a entrega de um software em que centenas de pessoas estão trabalhando ao mesmo tempo, além de
+                desafios técnicos interessantes, tais como fazer com que um app nativo android/iOS, possa trocar informações com uma 'webview' de maneira simples e segura.`,
                 'deliveries': {
                     'title': 'principais entregas:',
                     'items': [
-                        'redesign do resgate de poupança do app Itaú.'
+                        'redesign do resgate de poupança do app Itaú.',
+                        'fluxo de contratação e cancelamento de seguro de vida através do app Itaú.'
                     ]
                 }
             },
