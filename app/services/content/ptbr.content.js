@@ -115,13 +115,11 @@ module.exports = {
                 'name': 'BRQ Tecnologia.',
                 'address': 'http://www.brq.com/',
                 'periods': ['novembro / 2016 - atual'],
-                'role': 'desenvolvedor  .NET',
+                'role': 'desenvolvedor frontend',
                 'description': `Na BRQ tive a oportunidade de prestar consultoria para o banco Itaú,um dos maiores bancos da américa latina. 
                 Trabalhei diretamente no desenvolvimento do app (android e ios) do banco, utilizando C#.NET (chamado no app nativo como uma web view) 
                 e linguagens de frontend em geral (CSS, HTML, javascript, jquery). Tive também a oportunidade de participar de uma das primeiras equipes a 
-                utilizar o framework Angular2 no aplicativo do banco. Isto proporcionou um grande aprendizado e aprimoramento em minhas habilidades de frontend.
-                Tabmém aprendi a lidar com os processos que envolvem a entrega de um software em que centenas de pessoas estão trabalhando ao mesmo tempo, além de
-                desafios técnicos interessantes, tais como fazer com que um app nativo android/iOS, possa trocar informações com uma 'webview' de maneira simples e segura.`,
+                utilizar o framework javascript Angular2 nas webviews do aplicativo do banco.`,
                 'deliveries': {
                     'title': 'principais entregas:',
                     'items': [
@@ -129,7 +127,8 @@ module.exports = {
                         'fluxo de contratação e cancelamento de seguro de vida através do app Itaú.'
                     ]
                 }
-            },
+            }
+            /*
             {
                 'name': 'Geosiga, soluções em geopos.',
                 'address': 'https://www.geosiga.com.br/',
@@ -138,7 +137,11 @@ module.exports = {
                     'julho / 2012 - julho / 2013'
                 ],
                 'role': 'analista programador .NET',
-                'description': `Na Geosiga tive a oportunidade de trabalhar por duas vezes. Na minha primeira passagem, sendo meu primeiro emprego na área de desenvolvimento, tive a oportunidade de aprender muito e também contribuir com algumas entregas veliosas para a empresa. Na segunda oportunidade, pude contribuir com um maior conhecimento técnico que havia adquirido, além da melhoria dos processos de desenvolvimento da empresa.`,
+                'description': `Na Geosiga tive a oportunidade de trabalhar por duas vezes. Na minha primeira passagem, sendo meu primeiro 
+                emprego na área de desenvolvimento, aprendi muito e também contribuí com algumas entregas valiosas 
+                para a empresa. Na segunda oportunidade, pude contribuir com um maior conhecimento técnico que havia adquirido, 
+                além da melhoria dos processos de desenvolvimento da empresa e trabalhando em todas as fases do desenvolvimento de um app, desde
+                a arquitetura, desenvolvimento até o deploy.`,
                 'deliveries': {
                     'title': 'principais entregas:',
                     'items': [
@@ -158,7 +161,12 @@ module.exports = {
                     'agosto / 2014 - novembro / 2014',
                 ],
                 'role': 'analista programador .NET',
-                'description': `Na next soft, apesar do pouco tempo, pude adquirir conhecimentos sobre desenvolvimento desktop trabalhando no software de PDV da empresa, além de automatizar os testes do sistema.`,
+                'description': `Na next soft, apesar do pouco tempo, desenvolver mais minhas habilidades de desenvolvimento
+                desktop. Fui responsável por ajudar a manter um sistema de ponto de venda que roda 100% na máquina do cliente
+                utilizando VB.NET Windows Forms. Foi um aprendizado e tanto, pois pude enfrentar desafios técnicos não muito
+                usuais para quem trabalha mais com web, como por exemplo comunicação com uma impressora fiscal. Também fui responsável
+                por introduzir na empresa o uso de testes automatizados. Desenvolvi uma suite de testes de interface que automatizou os 
+                testes básicos do PDV.`,
                 'deliveries': {
                     'title': 'principais entregas:',
                     'items': [
@@ -174,7 +182,8 @@ module.exports = {
                     'julho / 2013 - julho / 2014',
                 ],
                 'role': 'programador .NET, scrum master',
-                'description': `A OOHM é a empresa que considero que tive meus maiores aprendizados, pude aprender muito, não só sobre programação mas também sobre metodologias ágeis, teste de software, DDD e etc.`,
+                'description': `A OOHM é a empresa que considero que tive meus maiores aprendizados, pude aprender muito, 
+                não só sobre programação mas também sobre metodologias ágeis, teste de software, DDD e etc.`,
                 'deliveries': {
                     'title': 'principais entregas:',
                     'items': [
@@ -184,6 +193,7 @@ module.exports = {
                     ]
                 }
             }
+            */
         ]
     },
     'education': {
