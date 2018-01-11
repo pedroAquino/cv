@@ -82,26 +82,27 @@
                     </div>
                    </div>
                 </div>
+                
+                
+                
                 <div class="row" id="exps">
                    <div class="col-xs-11">
                       <h3 class="subtitle"><%= experiences.title %></h3>                  
                       <% experiences.workplaces.forEach(function(workplace){ %>
                       <div class="top-distance">
-                            <a class="light-gray state-hidden-print" href="<%= workplace.address %>" target="_blank"> <%= workplace.name %></a>
-                            <a class="light-gray state-bold-print state-hidden-screen" href="#" target="_blank"> <%= workplace.name %></a>
+                            <a class="light-gray bold italic state-hidden-print" href="<%= workplace.address %>" target="_blank"> <%= workplace.name %></a>
+                            <a class="light-gray bold italic state-bold-print state-hidden-screen" href="#" target="_blank"> <%= workplace.name %></a>
                             <p>
-                                <%- workplace.periods.join(', ') %> &nbsp;
+                                <%- workplace.periods.join(' e ') %> &nbsp;
                             </p>
                             <p class="light-gray"><%= workplace.role %></p>
-                            <p> <%= workplace.description %></p>
-                            <p class="light-gray"><%= workplace.deliveries.title %></p>
-                            <ul class="list">
-                                <% workplace.deliveries.items.forEach(function(delivery){ %>
-                                    <li><%= delivery %></li>
-                                <% }); %>
-                            </ul>
+                            <p class="text-body">
+                                <%= workplace.description %>
+                                <span class="light-gray"><%= workplace.deliveries.title %>:</span>
+                                <%= workplace.deliveries.items.join(', ') %>.
+                            </p>
                             <p class="light-gray"><%= workplace.activities.title %></p>
-                            <ul class="list">
+                            <ul class="list text-body">
                                 <% workplace.activities.items.forEach(function(activity){ %>
                                     <li><%= activity %></li>
                                 <% }); %>
@@ -110,6 +111,9 @@
                       <% }); %>
                    </div>
                 </div>
+
+
+
                 <div class="row" id="education">
                    <div class="col-xs-11">
                       <h3 class="subtitle"><%= education.title %></h3>

@@ -122,46 +122,54 @@ module.exports = {
                 'activities': {
                     'title': 'atividades desenvolvidas',
                     'items': [
-                        'desenvolvimento de interfaces web responsivas utilizando ASP.NET Web Forms',
+                        'interfaces web responsivas utilizando ASP.NET Web Forms',
                         'integração de interface com serviços de backend para buscar e enviar dados',
-                        'desenvolvimento de componentes web reutilizáveisem Angular2',
-                        'integração de interfaces web com app nativo (android/iOS) em que ela deve ser renderizada'
+                        'componentes web reutilizáveisem Angular2',
+                        'integração de interfaces web com app nativo em que ela deve ser renderizada'
                     ]
                 },
                 'deliveries': {
-                    'title': 'principais entregas e habilidades desenvolvidas',
+                    'title': 'principais entregas',
                     'items': [
-                        'redesign do resgate de poupança do app Itaú.',
-                        'fluxo de contratação e cancelamento de seguro de vida através do app Itaú.'
+                        'redesign do resgate de poupança do app Itaú',
+                        'fluxo de contratação e cancelamento de seguro de vida através do app Itaú'
                     ]
                 }
-            }
-            /*
+            },
             {
-                'name': 'Geosiga, soluções em geopos.',
+                'name': 'Geosiga, soluções em geoposicionamento / São Paulo',
                 'address': 'https://www.geosiga.com.br/',
                 'periods': [
                     'novembro / 2014 - novembro / 2015',
                     'julho / 2012 - julho / 2013'
                 ],
-                'role': 'analista programador .NET',
-                'description': `Na Geosiga tive a oportunidade de trabalhar por duas vezes. Na minha primeira passagem, sendo meu primeiro 
-                emprego na área de desenvolvimento, aprendi muito e também contribuí com algumas entregas valiosas 
-                para a empresa. Na segunda oportunidade, pude contribuir com um maior conhecimento técnico que havia adquirido, 
-                além da melhoria dos processos de desenvolvimento da empresa e trabalhando em todas as fases do desenvolvimento de um app, desde
-                a arquitetura, desenvolvimento até o deploy.`,
+                'role': 'desenvolvedor full stack',
+                'description': `A Geosiga é uma empresa que trabalha com rastreamento de frotas. Trabalhei na área de desenvolvimento atuando
+                tanto em projetos internos como no principal produto da empresa. Utilizava principalmente a tecnologia ASP.NET,
+                mas também utilizei javascript para apps mobile híbridos.`,
                 'deliveries': {
                     'title': 'principais entregas:',
                     'items': [
-                        'envio de bloqueio para veículos rastreados pelo sistema em tempo real',
-                        'integração do software de helpdesk (kayako) com os sistemas internos da empresa',
-                        'ambiente de integração contínua',
-                        'construção de api para o produto da empresa, possibilitando a integração com outros sistemas',
-                        'implementação do processo de desenvolvimento scrum',
-                        'contratação de desenvolvedores e montagem de time.'
+                        'software capaz de enviar comandos de bloqueio e desbloqueio para veículos',
+                        'construção de api REST para o principal produto da empres',
+                        'ambiente de integração continua para o principal produto da empresa',
+                        'aplicativo em que o cliente poderia ver a localização do seu veículo'
                     ]
-                }
+                },
+                'activities': {
+                    'title': 'atividades desenvolvidas',
+                    'items': [
+                        'aplicações web com a tecnologia ASP.NET Web Forms, englobando front e backend.',
+                        'interfaces em javascript utilizando o framework Sencha Touch para app mobile híbrido.',
+                        'aplicações backend utilizando ASP.NET Web API.',
+                        'interfaces em javascript utilizando angular.js consumindo APIs REST.',
+                        'scripts de banco de dados para consultas, alterações e inclusões utilizando SQL Server.',
+                        'ambiente de integração contínua para aplicações ASP.NET utilizando a ferramenta Team City.',
+                        'scripts powershell para desempenhar tarefas no ambiente de integração contínua.'
+                    ]
+                },
             },
+            /*
             {
                 'name': 'Next Soft Tecnologia.',
                 'address': 'http://www.nexttecnologia.com.br/site/home.aspx',
