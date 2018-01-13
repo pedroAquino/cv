@@ -169,47 +169,38 @@ module.exports = {
                     ]
                 },
             },
-            /*
             {
-                'name': 'Next Soft Tecnologia.',
-                'address': 'http://www.nexttecnologia.com.br/site/home.aspx',
-                'periods': [
-                    'agosto / 2014 - novembro / 2014',
-                ],
-                'role': 'analista programador .NET',
-                'description': `Na next soft, apesar do pouco tempo, desenvolver mais minhas habilidades de desenvolvimento
-                desktop. Fui responsável por ajudar a manter um sistema de ponto de venda que roda 100% na máquina do cliente
-                utilizando VB.NET Windows Forms. Foi um aprendizado e tanto, pois pude enfrentar desafios técnicos não muito
-                usuais para quem trabalha mais com web, como por exemplo comunicação com uma impressora fiscal. Também fui responsável
-                por introduzir na empresa o uso de testes automatizados. Desenvolvi uma suite de testes de interface que automatizou os 
-                testes básicos do PDV.`,
-                'deliveries': {
-                    'title': 'principais entregas:',
-                    'items': [
-                        'correção de bug na comunicação do PDV (desktop) com a impressora fiscal epson',
-                        'automatização de testes'
-                    ]
-                }
-            },
-            {
-                'name': 'OOHM Tecnologia.',
+                'name': 'OOHM Tecnologia / São Paulo',
                 'address': 'http://www.oohm.com/',
                 'periods': [
                     'julho / 2013 - julho / 2014',
                 ],
-                'role': 'programador .NET, scrum master',
-                'description': `A OOHM é a empresa que considero que tive meus maiores aprendizados, pude aprender muito, 
-                não só sobre programação mas também sobre metodologias ágeis, teste de software, DDD e etc.`,
+                'role': 'desenvolvedor fullstack, scrum master',
+                'description': `A OOHM é uma empresa de consultoria em desenvolvimento de software que presta serviço
+                para clientes de diferentes ramos incluindo o setor imobiliário, comércio varejista e até
+                mesmo um sindicato patronal. No tempo em que estive lá trabalhei com diversos projetos mas o que
+                trabalhei por mais tempo foi o e-commerce do sindicado dos comerciantes do ABC, o Mais Lojas ABC,
+                que é um marketplace para os comerciantes da região. Utilizei, na maior parte dos projetos
+                ASP.NET MVC, mas também trabalhei um pouco com PHP. Trabalhei também como Scrum Master.`,
                 'deliveries': {
-                    'title': 'principais entregas:',
+                    'title': 'principais entregas',
                     'items': [
-                        'pagamento com paypall (e-commerce)',
-                        'automatização de testes em PHP',
-                        'condução de reuniões e contato direto com cliente.'
+                        'Scrum Master do projeto Mais Lojas ABC',
+                        'suite de testes em PHP para e-commerce da loja de móveis OPA',
+                        'desenvolvimento de interfaces e backend para software na área imobiliária'
+                    ]
+                },
+                'activities': {
+                    'title': 'atividades desenvolvidas',
+                    'items': [
+                        'aplicações web com a tecnologia ASP.NET Web Forms, englobando front e backend.',
+                        'integração com bancos de dados SQL Server utilizando ORM Entity Framework.',
+                        'testes automatizados para interfaces Web utilizando Selenium (.NET e PHP).',
+                        'ambiente de integração contínua para aplicações ASP.NET utilizando a ferramenta Cruise Control.NET.',
+                        'condução das cerimônias SCRUM (review, planning, daily e retrospectiva) atuando como scrum master.'
                     ]
                 }
             }
-            */
         ]
     },
     'education': {
