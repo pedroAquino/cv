@@ -59,6 +59,14 @@ a.light-gray:active {
   color: #eee;
   text-decoration: none;
 }
+a.icon:link {
+  color: #3d3e42;
+  text-decoration: none;
+}
+a.icon:visited {
+  color: #3d3e42;
+  text-decoration: none;
+}
 a:link {
   color: #9099a0;
   text-decoration: none;
@@ -133,13 +141,13 @@ a:active {
   .state-hidden-desktop {
     display: none;
   }
-  .print {
+  .icon {
     color: #3d3e42;
     transition-property: color;
     transition-duration: 0.5s;
     transition-timing-function: linear;
   }
-  .print:hover {
+  .icon:hover {
     cursor: pointer;
     color: #6c9;
   }

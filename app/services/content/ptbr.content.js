@@ -3,15 +3,21 @@ module.exports = {
     'disclaiMerList': [
         'desenvolvedor web fullstack',
         'proficiente em javascript e ASP.NET',
-        'scrum master, agilista'
+        'scrum master, agilista',
+        `<a href="https://www.google.com.br/maps/place/R.+Anita+Garibalde,+100+-+Alianca,+Ribeir%C3%A3o+Pires+-+SP/@-23.6941924,-46.4343091,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce6c710083d1f7:0x49cad383baff7591!8m2!3d-23.6941973!4d-46.4321204?hl=pt-BR"
+            class="icon"
+            target="_blank">
+            <i class="glyphicon glyphicon-map-marker"></i>
+            ribeirão pires, são paulo
+        </a>`
     ],
     'aboutMe': {
         'title': 'SOBRE MIM',
         'content': `Minha história com o desenvolvimento de software começou relativamente cedo. Com 15 anos fiz meus 
         primeiros programas em access (shame !), e daí não parei mais. De lá para cá foram dez longos anos e
-        uma carreira da qual não me arrependo em, praticamente, nada ! Tenho <strike class="state-hidden-print" id="oldAge"></strike> <span class="dark bold" id="age"></span>, sou solteiro, moro  em Ribeirão Pires - SP (região metropolitana).
+        uma carreira da qual não me arrependo em, praticamente, nada ! Tenho <strike class="state-hidden-print" id="oldAge"></strike> <span class="dark bold" id="age"></span>
         <span class="state-hidden">
-            Trabalhei em diversos lugares e aprendi diversas linguagens, mas o amor da minha vida sempre foi javascript.
+            e trabalhei em diversos lugares e aprendi diversas linguagens, mas o amor da minha vida sempre foi javascript.
             Me considero proficiente em javascript, css, html, c#.net e, nos últimos tempos tenho buscado aprender python e node.js. 
             Em 2015, tive a oportunidade de passar 6 meses na <span class="dark bold">irlanda</span>.
             Foi uma experiência fantástica, e ainda pude me tornar <span class="dark bold">fluente em inglês</span>. 

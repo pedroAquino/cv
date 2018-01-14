@@ -10,20 +10,24 @@
           <div class="row">
              <section class="col-md-4" id="profile">
                 <div class="row top-distance" id="header">
-                   <div class="col-xs-10"><img class="rounded-figure" src="/img/5552879.jpg"/></div>
-                   <div class="col-xs-2"><i class="glyphicon glyphicon-print print dark state-hidden-print" id="print"></i></div>
+                   <div class="col-xs-10">
+                       <img class="rounded-figure state-hidden-print" src="/img/5552879.jpg"/>
+                    </div>
+                   <div class="col-xs-2">
+                       <i class="glyphicon glyphicon-print icon dark state-hidden-print" id="print"></i>
+                    </div>
                    <div class="col-xs-9">
                       <h2 class="title">Pedro Aquino</h2>
                    </div>
                    <div class="col-xs-11">
                         <ul class="list italic">
                             <% disclaiMerList.forEach(function(item){ %>
-                                <li> <%= item %> </li>
+                                <li> <%- item %> </li>
                             <% });  %>
                         </ul>
                    </div>
                 </div>
-                <div class="row" id="disclaimer">
+                <div class="row state-hidden-print" id="disclaimer">
                    <div class="col-xs-11">
                       <h3 class="subtitle"> <%= aboutMe.title %> </h3>
                       <p class="disclaimer">
@@ -82,9 +86,6 @@
                     </div>
                    </div>
                 </div>
-                
-                
-                
                 <div class="row" id="exps">
                    <div class="col-xs-11">
                       <h3 class="subtitle"><%= experiences.title %></h3>                  
@@ -111,9 +112,6 @@
                       <% }); %>
                    </div>
                 </div>
-
-
-
                 <div class="row" id="education">
                    <div class="col-xs-11">
                       <h3 class="subtitle"><%= education.title %></h3>
