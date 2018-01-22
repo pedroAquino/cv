@@ -7,14 +7,23 @@ function getAge() {
 	);
 };
 
+function getLanguage() {
+	return $('#language').val();
+};
+
 $(document).ready(function(){
 	
+	var language = getLanguage();
+	var years = language === 'pt-BR' ? ' anos' : '';
+	var seeMore = language === 'pt-BR' ? 'ver mais' : 'see more';
+	var seeLess = language === 'pt-BR' ? 'ver menos' : 'see less'; 
+
 	$('#oldAge').text(
-		(getAge() - 1).toString() + ' anos'
+		(getAge() - 1).toString() + years
 	);
 	
 	$('#age').text(
-		getAge().toString() + ' anos'
+		getAge().toString() + years
 	);
 	
 	$('#show').click(function(){
@@ -22,11 +31,11 @@ $(document).ready(function(){
 		var text = $(this).text().trim();
 		var html = $(this).html();
 
-		if (text == 'ver mais') {
-			$(this).html(html.replace('ver mais', 'ver menos'));
+		if (text == seeMore) {
+			$(this).html(html.replace(seeMore, seeLess));
 		}
 		else {
-			$(this).html(html.replace('ver menos', 'ver mais'));
+			$(this).html(html.replace(seeLess, seeMore));
 		}
 
 		var el = $(this).parent().find('.state-hidden');

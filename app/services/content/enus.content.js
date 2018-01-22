@@ -20,18 +20,19 @@ module.exports = {
     ],
     'aboutMe': {
         'title': 'ABOUT ME',
-        'content': `Minha história com o desenvolvimento de software começou relativamente cedo. Com 15 anos fiz meus 
-        primeiros programas em access (shame !), e daí não parei mais. De lá para cá foram dez longos anos e
-        uma carreira da qual não me arrependo em, praticamente, nada ! Tenho <strike class="state-hidden-print" id="oldAge"></strike> <span class="dark bold" id="age"></span>
+        'content': `My story with software development started relatively soon. 
+        When I was 15 I did my first program in access, and I didn't stop there.
+        Since then it has been ten long years and a career that I don't regret anything
+        I'm <strike class="state-hidden-print" id="oldAge"></strike> <span class="dark bold" id="age"></span>
         <span class="state-hidden">
-            e trabalhei em diversos lugares e aprendi diversas linguagens, mas o amor da minha vida sempre foi javascript.
-            Me considero proficiente em javascript, css, html, c#.net e, nos últimos tempos tenho buscado aprender python e node.js. 
-            Em 2015, tive a oportunidade de passar 6 meses na <span class="dark bold">irlanda</span>.
-            Foi uma experiência fantástica, e ainda pude me tornar <span class="dark bold">fluente em inglês</span>. 
-            Também sou agilista, fissurado por produtividade. Nas horas vagas eu leio, jogo video-game, viajo e 
-            me dedico a aprender novas tecnologias.
+            and I have worked in many places and learned many languages but my true love was ever javascript.
+            I'm proficient in javascript, css, html and c#.net. Recently I have been learning python and node.js.
+            In 2015 I spent six months in <span class="dark bold">ireland</span>.
+            It was a fantastic experience and also made me <span class="dark bold">fluent in english</span>.
+            I also like agile methodologies, addicted to productivity.
+            On my free time I love to read, play videogames and learn new technologies
         </span>`,
-        'label': 'ver mais'
+        'label': 'see more'
     },
     'habilities': {
         'title': 'MAIN SKILLS',
