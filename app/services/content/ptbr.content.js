@@ -5,11 +5,18 @@ module.exports = {
         'proficiente em javascript e ASP.NET',
         'scrum master, agilista',
         `<a href="https://www.google.com.br/maps/place/R.+Anita+Garibalde,+100+-+Alianca,+Ribeir%C3%A3o+Pires+-+SP/@-23.6941924,-46.4343091,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce6c710083d1f7:0x49cad383baff7591!8m2!3d-23.6941973!4d-46.4321204?hl=pt-BR"
-            class="icon"
+            class="icon state-hidden-print"
             target="_blank">
             <i class="glyphicon glyphicon-map-marker"></i>
             ribeirão pires, são paulo
-        </a>`
+        </a>
+        <a href="#"
+            class="icon state-hidden-screen"
+            target="_blank">
+            <i class="glyphicon glyphicon-map-marker"></i>
+            ribeirão pires, são paulo
+        </a>
+        `
     ],
     'aboutMe': {
         'title': 'SOBRE MIM',
@@ -118,7 +125,7 @@ module.exports = {
         'title': 'EXPERIÊNCIAS',
         'workplaces': [
             {
-                'name': 'BRQ Tecnologia / São Paulo',
+                'name': 'BRQ Tecnologia, São Paulo',
                 'address': 'http://www.brq.com/',
                 'periods': ['novembro / 2016 - atual'],
                 'role': 'desenvolvedor frontend',
@@ -143,13 +150,13 @@ module.exports = {
                 }
             },
             {
-                'name': 'Geosiga, soluções em geoposicionamento / São Paulo',
+                'name': 'Geosiga, soluções em geoposicionamento, São Paulo',
                 'address': 'https://www.geosiga.com.br/',
                 'periods': [
                     'novembro / 2014 - novembro / 2015',
                     'julho / 2012 - julho / 2013'
                 ],
-                'role': 'desenvolvedor full stack',
+                'role': 'desenvolvedor fullstack',
                 'description': `A Geosiga é uma empresa que trabalha com rastreamento de frotas. Trabalhei na área de desenvolvimento atuando
                 tanto em projetos internos como no principal produto da empresa. Utilizava principalmente a tecnologia ASP.NET,
                 mas também utilizei javascript para apps mobile híbridos.`,
@@ -176,12 +183,12 @@ module.exports = {
                 },
             },
             {
-                'name': 'OOHM Tecnologia / São Paulo',
+                'name': 'OOHM Tecnologia, São Paulo',
                 'address': 'http://www.oohm.com/',
                 'periods': [
                     'julho / 2013 - julho / 2014',
                 ],
-                'role': 'desenvolvedor fullstack, scrum master',
+                'role': 'desenvolvedor fullstack e scrum master',
                 'description': `A OOHM é uma empresa de consultoria em desenvolvimento de software que presta serviço
                 para clientes de diferentes ramos incluindo o setor imobiliário, comércio varejista e até
                 mesmo um sindicato patronal. No tempo em que estive lá trabalhei com diversos projetos mas o que

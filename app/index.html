@@ -91,13 +91,16 @@
                       <h3 class="subtitle"><%= experiences.title %></h3>                  
                       <% experiences.workplaces.forEach(function(workplace){ %>
                       <div class="top-distance">
-                            <a class="light-gray bold italic state-hidden-print" href="<%= workplace.address %>" target="_blank"> <%= workplace.name %></a>
-                            <a class="light-gray bold italic state-bold-print state-hidden-screen" href="#" target="_blank"> <%= workplace.name %></a>
-                            <p>
+                            <a class="light-gray bold italic state-hidden-print" href="<%= workplace.address %>" target="_blank">
+                                <%= workplace.name %>, <%= workplace.role %>
+                            </a>
+                            <a class="light-gray bold italic state-bold-print state-hidden-screen" href="#" target="_blank">
+                                <%= workplace.name %>, <%= workplace.role %>
+                            </a>
+                            <p class="light-gray">
                                 <%- workplace.periods.join(' e ') %> &nbsp;
                             </p>
-                            <p class="light-gray"><%= workplace.role %></p>
-                            <p class="text-body">
+                            <p>
                                 <%= workplace.description %>
                                 <span class="light-gray"><%= workplace.deliveries.title %>:</span>
                                 <%= workplace.deliveries.items.join(', ') %>.
