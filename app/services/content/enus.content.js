@@ -126,60 +126,60 @@ module.exports = {
         'title': 'EXPERIENCES',
         'workplaces': [
             {
-                'name': 'BRQ Tecnologia, São Paulo',
+                'name': 'BRQ Technology, São Paulo',
                 'address': 'http://www.brq.com/',
                 'periods': ['novembro / 2016 - atual'],
-                'role': 'desenvolvedor frontend',
-                'description': `A BRQ é uma consultoria de desenvolvimento de software especializada em atender empresas do setor
-                financeiro. Atualmente trabalho prestando serviço para o Itaú Unibanco, tendo como responsabilidades principais desenvolver
-                novas funcionalidades para o aplicativo móvel do banco, utilizando com tudo, tecnologias web.`,
+                'role': 'frontend developer',
+                'description': `BRQ is a software development consulting company focused on the financial market.
+                Currently I work as a consultant for Itau Unibanco, the biggest private bank in
+                Brazil. My key responsibilities are developing new features for the bank's mobile
+                app using web technologies on a hybrid approach,`,
                 'activities': {
-                    'title': 'atividades desenvolvidas',
+                    'title': 'main activities',
                     'items': [
-                        'interfaces web responsivas utilizando ASP.NET Web Forms',
-                        'integração de interface com serviços de backend para buscar e enviar dados',
-                        'componentes web reutilizáveisem Angular2',
-                        'integração de interfaces web com app nativo em que ela deve ser renderizada'
+                        'responsive web interfaces using ASP.NET Web Forms',
+                        'frontend api integrations',
+                        'reusable web components with Angular2',
+                        'web frontend integration with native mobile app (hybrid approach)'
                     ]
                 },
                 'deliveries': {
-                    'title': 'principais entregas',
+                    'title': 'deliveries',
                     'items': [
-                        'redesign do resgate de poupança do app Itaú',
-                        'fluxo de contratação e cancelamento de seguro de vida através do app Itaú'
+                        `frontend redesign of saving rescue feature of Itaú's mobile app`,
+                        `frontend of life ensurance contracting and canceling features of Itaú's mobile app`
                     ]
                 }
             },
             {
-                'name': 'Geosiga, soluções em geoposicionamento, São Paulo',
+                'name': 'Geosiga, solutions in geo-positioning, São Paulo, Brazil',
                 'address': 'https://www.geosiga.com.br/',
                 'periods': [
                     'novembro / 2014 - novembro / 2015',
                     'julho / 2012 - julho / 2013'
                 ],
-                'role': 'desenvolvedor fullstack',
-                'description': `A Geosiga é uma empresa que trabalha com rastreamento de frotas. Trabalhei na área de desenvolvimento atuando
-                tanto em projetos internos como no principal produto da empresa. Utilizava principalmente a tecnologia ASP.NET,
-                mas também utilizei javascript para apps mobile híbridos.`,
+                'role': 'fullstack developer',
+                'description': `Geosiga is a fleet tracking company. I worked there on backoffice projects and also on their main product.
+                The main technology was ASP.NET but I also did some javascript for a hybrid mobile app`,
                 'deliveries': {
-                    'title': 'principais entregas:',
+                    'title': 'deliveries',
                     'items': [
-                        'software capaz de enviar comandos de bloqueio e desbloqueio para veículos',
-                        'construção de api REST para o principal produto da empres',
-                        'ambiente de integração continua para o principal produto da empresa',
-                        'aplicativo em que o cliente poderia ver a localização do seu veículo'
+                        'software capable to send block and unblock commands to vehicles',
+                        'rest api for the main product of the company',
+                        'CI environment for the main product of the company',
+                        'mobile vehicle tracking app'
                     ]
                 },
                 'activities': {
-                    'title': 'atividades desenvolvidas',
+                    'title': 'main activities',
                     'items': [
-                        'aplicações web com a tecnologia ASP.NET Web Forms, englobando front e backend.',
-                        'interfaces em javascript utilizando o framework Sencha Touch para app mobile híbrido.',
-                        'aplicações backend utilizando ASP.NET Web API.',
-                        'interfaces em javascript utilizando angular.js consumindo APIs REST.',
-                        'scripts de banco de dados para consultas, alterações e inclusões utilizando SQL Server.',
-                        'ambiente de integração contínua para aplicações ASP.NET utilizando a ferramenta Team City.',
-                        'scripts powershell para desempenhar tarefas no ambiente de integração contínua.'
+                        'web application on ASP.NET Web Forms including frontend and backend.',
+                        'javascript app using sencha touch framework for hybrid mobile apps.',
+                        'rest api using ASP.NET Web API.',
+                        'consuming rest api from angular.js web interfaces.',
+                        'database scripts for querying, altering and including data using SQL server.',
+                        'continuous delivery environment for ASP.NET application using Team City.',
+                        'powershell scripts to perform tasks on the CI environment.'
                     ]
                 },
             },
@@ -190,28 +190,27 @@ module.exports = {
                     'julho / 2013 - julho / 2014',
                 ],
                 'role': 'desenvolvedor fullstack e scrum master',
-                'description': `A OOHM é uma empresa de consultoria em desenvolvimento de software que presta serviço
-                para clientes de diferentes ramos incluindo o setor imobiliário, comércio varejista e até
-                mesmo um sindicato patronal. No tempo em que estive lá trabalhei com diversos projetos mas o que
-                trabalhei por mais tempo foi o e-commerce do sindicado dos comerciantes do ABC, o Mais Lojas ABC,
-                que é um marketplace para os comerciantes da região. Utilizei, na maior parte dos projetos
-                ASP.NET MVC, mas também trabalhei um pouco com PHP. Trabalhei também como Scrum Master.`,
+                'description': `OOHM is a software development consulting company that works for customer
+                from different markets including real state, retail and even employer's union.
+                There I worked on many projects but the main project was Mais Lojas ABC, a marketplace
+                for local traders to announce their products. I did mainly ASP.NET MVC, but also some PHP.
+                I also worked as a Scrum Master.`,
                 'deliveries': {
-                    'title': 'principais entregas',
+                    'title': 'deliveries',
                     'items': [
-                        'Scrum Master do projeto Mais Lojas ABC',
-                        'suite de testes em PHP para e-commerce da loja de móveis OPA',
-                        'desenvolvimento de interfaces e backend para software na área imobiliária'
+                        'Scrum master of Mais Lojas ABC project',
+                        'interface tests automation for e-commerce',
+                        'frontend and backend for real state management software'
                     ]
                 },
                 'activities': {
-                    'title': 'atividades desenvolvidas',
+                    'title': 'main activities',
                     'items': [
-                        'aplicações web com a tecnologia ASP.NET Web Forms, englobando front e backend.',
-                        'integração com bancos de dados SQL Server utilizando ORM Entity Framework.',
-                        'testes automatizados para interfaces Web utilizando Selenium (.NET e PHP).',
-                        'ambiente de integração contínua para aplicações ASP.NET utilizando a ferramenta Cruise Control.NET.',
-                        'condução das cerimônias SCRUM (review, planning, daily e retrospectiva) atuando como scrum master.'
+                        'web applications using ASP.NET Web Forms.',
+                        'integrating ASP.NET applications with SQL Server and MySql databases using Entity Framework ORM.',
+                        'interface test automation using Slenium and Nunity / PHPUnity.',
+                        'CI environment for ASP.NET application usin Cruise Control.NET.',
+                        'driving scrum ceremonies (review, planning, daily e retro) as scrum master.'
                     ]
                 }
             }
@@ -221,22 +220,22 @@ module.exports = {
         'title': 'EDUCATION',
         'courses': [
             {
-                'name': 'informática para negócios',
-                'institution': 'Fatec Mauá',
+                'name': 'business informatics',
+                'institution': 'Technology College of Mauá',
                 'address': 'http://www.fatecmaua.com.br/',
-                'status': 'concluído, 2017',
+                'status': 'completed, 2017',
             },
             {
-                'name': 'informática para internet',
-                'institution': 'Etec Lauro Gomes',
+                'name': 'further education in internet technologies',
+                'institution': 'Technical school Lauro Gomes',
                 'address': 'http://www.etelg.com.br/',
-                'status': 'concluído, 2012',
+                'status': 'completed, 2012',
             },
             {
-                'name': 'eletricista de manutenção',
+                'name': 'maintenance electrician',
                 'institution': 'Senai A. Jacob Lafer',
                 'address': 'https://santoandre.sp.senai.br/',
-                'status': 'concluído, 2008',
+                'status': 'completed, 2008',
             }
         ]
     },
