@@ -238,5 +238,16 @@ module.exports = {
                 'status': 'concluído, 2008',
             }
         ]
+    },
+    'contact': {
+        'title': 'CONTATO',
+        'phone': {
+            'icon': 'glyphicon-phone',
+            'number': '(11) 97512-3371'
+        },
+        'mail': {
+            'icon': 'glyphicon-envelope',
+            'address': 'pedrohenrique.aquino@live.com'
+        }
     }
 };

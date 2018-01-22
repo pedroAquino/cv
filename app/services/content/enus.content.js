@@ -19,7 +19,7 @@ module.exports = {
         `
     ],
     'aboutMe': {
-        'title': 'SOBRE MIM',
+        'title': 'ABOUT ME',
         'content': `Minha história com o desenvolvimento de software começou relativamente cedo. Com 15 anos fiz meus 
         primeiros programas em access (shame !), e daí não parei mais. De lá para cá foram dez longos anos e
         uma carreira da qual não me arrependo em, praticamente, nada ! Tenho <strike class="state-hidden-print" id="oldAge"></strike> <span class="dark bold" id="age"></span>
@@ -34,62 +34,62 @@ module.exports = {
         'label': 'ver mais'
     },
     'habilities': {
-        'title': 'PRINCIPAIS HABILIDADES',
+        'title': 'MAIN SKILLS',
         'content': [
             {
                 'topic': 'Angular 4+',
                 'level': 'advanced',
-                'levelText': 'avançado'
+                'levelText': 'advanced'
             },
             {
                 'topic': 'Angular.js',
                 'level': 'advanced',
-                'levelText': 'avançado'
+                'levelText': 'advanced'
             },
             {
                 'topic': 'HTML5 / Web Accessibility',
                 'level': 'advanced',
-                'levelText': 'avançado'
+                'levelText': 'advanced'
             },
             {
-                'topic': 'CSS3 / Compiladores CSS (SASS / Stylus)',
+                'topic': 'CSS3 / CSS Compilers (SASS / Stylus)',
                 'level': 'advanced',
-                'levelText': 'avançado'
+                'levelText': 'advanced'
             },
             {
                 'topic': 'ASP.NET (MVC / Web Forms / WCF / Web API), C#',
                 'level': 'advanced',
-                'levelText': 'avançado'
+                'levelText': 'advanced'
             },
             {
-                'topic': 'Mobile Híbrido (Web View) / Ionic / Sencha Touch',
+                'topic': 'Hybrid Mobile (Web View) / Ionic / Sencha Touch',
                 'level': 'intermediate',
-                'levelText': 'intermediário'
+                'levelText': 'intermediate'
             },
             {
                 'topic': 'CSS Animations',
                 'level': 'intermediate',
-                'levelText': 'intermediário'
+                'levelText': 'intermediate'
             },
             {
-                'topic': 'DevOps / Configuração de CI (Team City / Cruise Control.NET)',
+                'topic': 'DevOps / CI Configuration (Team City / Cruise Control.NET)',
                 'level': 'basic',
-                'levelText': 'básico'
+                'levelText': 'basic'
             },
             {
                 'topic': 'node.js',
                 'level': 'basic',
-                'levelText': 'básico'
+                'levelText': 'basic'
             },
             {
                 'topic': 'python',
                 'level': 'basic',
-                'levelText': 'básico'
+                'levelText': 'basic'
             },
         ]
     },
     'certifications': {
-        'title': 'CERTIFICAÇÕES',
+        'title': 'CERTIFICATIONS',
         'emitters': [
             /*
             {
@@ -110,19 +110,19 @@ module.exports = {
                 'name': 'Microsoft (MCSD Web Developer)',
                 'certificates': [
                     {
-                        'title': '70-480 - Programando em HTML5 e CSS3.',
-                        'address': 'https://www.microsoft.com/pt-br/learning/exam-70-480.aspx'
+                        'title': '70-480 - Programming in HTML5 with javascript and CSS3.',
+                        'address': 'https://www.microsoft.com/en-us/learning/exam-70-480.aspx'
                     },
                     {
-                        'title': '70-486 - Desenvolvendo aplicações ASP.NET.',
-                        'address': 'https://www.microsoft.com/pt-br/learning/exam-70-486.aspx'
+                        'title': '70-486 - Developing ASP.NET MVC Web Applications.',
+                        'address': 'https://www.microsoft.com/en-us/learning/exam-70-486.aspx'
                     }
                 ]
             }
         ]
     },
     'experiences': {
-        'title': 'EXPERIÊNCIAS',
+        'title': 'EXPERIENCES',
         'workplaces': [
             {
                 'name': 'BRQ Tecnologia, São Paulo',
@@ -217,7 +217,7 @@ module.exports = {
         ]
     },
     'education': {
-        'title': 'EDUCAÇÃO',
+        'title': 'EDUCATION',
         'courses': [
             {
                 'name': 'informática para negócios',
@@ -238,5 +238,16 @@ module.exports = {
                 'status': 'concluído, 2008',
             }
         ]
+    },
+    'contact': {
+        'title': 'CONTACT',
+        'phone': {
+            'icon': 'glyphicon-phone',
+            'number': '+55 11 97512-3371'
+        },
+        'mail': {
+            'icon': 'glyphicon-envelope',
+            'address': 'pedrohenrique.aquino@live.com'
+        }
     }
 };

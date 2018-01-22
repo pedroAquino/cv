@@ -129,16 +129,16 @@
                 </div>
                 <div class="row" id="contact">
                    <div class="col-xs-11">
-                      <h3 class="subtitle">CONTATO</h3>
+                      <h3 class="subtitle"><%= contact.title %></h3>
                       <div class="top-distance">
                          <table class="table table-unbordered">
                             <tr>
-                               <td><i class="glyphicon glyphicon-phone"></i></td>
-                               <td class="light-gray">(11) 97512-3371</td>
+                               <td><i class="glyphicon <%= contact.phone.icon %>"></i></td>
+                               <td class="light-gray"><%= contact.phone.number %></td>
                             </tr>
                             <tr>
-                               <td><i class="glyphicon glyphicon-envelope"></i></td>
-                               <td class="light-gray">pedrohenrique.aquino@live.com</td>
+                               <td><i class="glyphicon <%= contact.mail.icon %>"></i></td>
+                               <td class="light-gray"><%= contact.mail.address %></td>
                             </tr>
                          </table>
                       </div>
