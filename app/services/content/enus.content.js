@@ -1,20 +1,20 @@
 module.exports = {
-    'language': 'pt-BR',
+    'language': 'en-US',
     'disclaiMerList': [
-        'desenvolvedor web fullstack',
-        'proficiente em javascript e ASP.NET',
-        'scrum master, agilista',
-        `<a href="https://www.google.com.br/maps/place/R.+Anita+Garibalde,+100+-+Alianca,+Ribeir%C3%A3o+Pires+-+SP/@-23.6941924,-46.4343091,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce6c710083d1f7:0x49cad383baff7591!8m2!3d-23.6941973!4d-46.4321204?hl=pt-BR"
+        'fullstack web developer',
+        'proficient in javascript and ASP.NET',
+        'scrum master',
+        `<a href="https://www.google.com.br/maps/place/R.+Anita+Garibalde,+100+-+Alianca,+Ribeir%C3%A3o+Pires+-+SP/@-23.6941924,-46.4343091,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce6c710083d1f7:0x49cad383baff7591!8m2!3d-23.6941973!4d-46.4321204?hl=en-US"
             class="icon state-hidden-print"
             target="_blank">
             <i class="glyphicon glyphicon-map-marker"></i>
-            ribeirão pires, são paulo
+            ribeirão pires, state of são paulo, Brazil
         </a>
         <a href="#"
             class="icon state-hidden-screen"
             target="_blank">
             <i class="glyphicon glyphicon-map-marker"></i>
-            ribeirão pires, são paulo
+            ribeirão pires, state of são paulo, Brazil
         </a>
         `
     ],
