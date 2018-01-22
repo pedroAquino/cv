@@ -4,7 +4,8 @@ var express = require('express'),
 
 router.get('/', function(request, response, next) {
 	var contentService = new ContentService();
-	response.render('index', contentService.getContent('pt-BR'));
+	// response.render('index', contentService.getContent('pt-BR'));
+	response.render('index', contentService.getContent('en-US'));
 });
 
 module.exports = router;

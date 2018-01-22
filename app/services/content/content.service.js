@@ -1,4 +1,5 @@
 var contentPtBr = require('./ptbr.content');
+var contentEnUs = require('./enus.content');
 
 module.exports = function ContentService() {
     
@@ -12,7 +13,7 @@ module.exports = function ContentService() {
         if (localization === 'pt-BR') {
             return contentPtBr;
         } else {
-            throw new Error('NOT IMPLEMENTED !');
+            return contentEnUs;
         }
     }
 }
