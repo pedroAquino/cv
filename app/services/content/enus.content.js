@@ -29,8 +29,8 @@ module.exports = {
             I'm proficient in javascript, css, html and c#.net. Recently I have been learning python and node.js.
             In 2015 I spent six months in <span class="dark bold">ireland</span>.
             It was a fantastic experience and also made me <span class="dark bold">fluent in english</span>.
-            I also like agile methodologies, addicted to productivity.
-            On my free time I love to read, play videogames and learn new technologies
+            I also like agile methodologies, I'm addicted to productivity and
+            on my free time I love to read, play videogames and learn new technologies.
         </span>`,
         'label': 'see more'
     },
@@ -38,7 +38,7 @@ module.exports = {
         'title': 'MAIN SKILLS',
         'content': [
             {
-                'topic': 'Angular 4+',
+                'topic': 'Angular 2+',
                 'level': 'advanced',
                 'levelText': 'advanced'
             },
@@ -128,7 +128,7 @@ module.exports = {
             {
                 'name': 'BRQ Technology, São Paulo',
                 'address': 'http://www.brq.com/',
-                'periods': ['novembro / 2016 - atual'],
+                'periods': ['november / 2016 - current'],
                 'role': 'frontend developer',
                 'description': `BRQ is a software development consulting company focused on the financial market.
                 Currently I work as a consultant for Itau Unibanco, the biggest private bank in
@@ -155,8 +155,8 @@ module.exports = {
                 'name': 'Geosiga, solutions in geo-positioning, São Paulo, Brazil',
                 'address': 'https://www.geosiga.com.br/',
                 'periods': [
-                    'novembro / 2014 - novembro / 2015',
-                    'julho / 2012 - julho / 2013'
+                    'november / 2014 - november / 2015',
+                    'july / 2012 - july / 2013'
                 ],
                 'role': 'fullstack developer',
                 'description': `Geosiga is a fleet tracking company. I worked there on backoffice projects and also on their main product.
@@ -173,7 +173,7 @@ module.exports = {
                 'activities': {
                     'title': 'main activities',
                     'items': [
-                        'web application on ASP.NET Web Forms including frontend and backend.',
+                        'web applications on ASP.NET Web Forms including frontend and backend.',
                         'javascript app using sencha touch framework for hybrid mobile apps.',
                         'rest api using ASP.NET Web API.',
                         'consuming rest api from angular.js web interfaces.',
@@ -184,15 +184,15 @@ module.exports = {
                 },
             },
             {
-                'name': 'OOHM Tecnologia, São Paulo',
+                'name': 'OOHM Technology, São Paulo',
                 'address': 'http://www.oohm.com/',
                 'periods': [
-                    'julho / 2013 - julho / 2014',
+                    'july / 2013 - july / 2014',
                 ],
-                'role': 'desenvolvedor fullstack e scrum master',
-                'description': `OOHM is a software development consulting company that works for customer
-                from different markets including real state, retail and even employer's union.
-                There I worked on many projects but the main project was Mais Lojas ABC, a marketplace
+                'role': 'fullstack developer and scrum master',
+                'description': `OOHM is a software development consulting company that works for customers
+                from different markets including real state, retail and even an employer's union.
+                There I worked on many projects but the main project was "Mais Lojas ABC", a marketplace
                 for local traders to announce their products. I did mainly ASP.NET MVC, but also some PHP.
                 I also worked as a Scrum Master.`,
                 'deliveries': {
@@ -208,9 +208,9 @@ module.exports = {
                     'items': [
                         'web applications using ASP.NET Web Forms.',
                         'integrating ASP.NET applications with SQL Server and MySql databases using Entity Framework ORM.',
-                        'interface test automation using Slenium and Nunity / PHPUnity.',
-                        'CI environment for ASP.NET application usin Cruise Control.NET.',
-                        'driving scrum ceremonies (review, planning, daily e retro) as scrum master.'
+                        'interface test automation using Selenium and Nunity / PHPUnity.',
+                        'CI environment for ASP.NET application using Cruise Control.NET.',
+                        'driving scrum ceremonies (review, planning, daily and retro) as scrum master.'
                     ]
                 }
             }
