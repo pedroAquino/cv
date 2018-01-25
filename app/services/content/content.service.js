@@ -1,19 +1,15 @@
-var contentPtBr = require('./ptbr.content');
-var contentEnUs = require('./enus.content');
+var contentPt = require('./pt.content');
+var contentEn = require('./en.content');
 
 module.exports = function ContentService() {
     
-    this.getContent = function(localization) {
+    this.getContent = function(language) {
 
-        if (localization !== 'pt-BR' &&
-            localization !== 'en-US') {
-            return null;
-        }
-
-        if (localization === 'pt-BR') {
-            return contentPtBr;
+        if (language === 'pt-BR' ||
+            language == 'pt') {
+            return contentPt;
         } else {
-            return contentEnUs;
+            return contentEn;
         }
     }
 }
