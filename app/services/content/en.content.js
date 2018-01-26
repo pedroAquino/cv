@@ -1,6 +1,7 @@
 module.exports = {
     'language': 'en-US',
     'disclaiMerList': [
+        'problem solver',
         'fullstack web developer',
         'proficient in javascript and ASP.NET',
         'scrum master',

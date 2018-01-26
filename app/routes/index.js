@@ -8,7 +8,7 @@ router.get('/', function(request, response, next) {
 
 	if (language === 'pt-br' ||
 		language === 'pt') {
-		sresponse.redirect('/pt');
+		response.redirect('/pt');
 	} else {
 		response.redirect('/en');
 	}
