@@ -41,11 +41,10 @@ var server = {
 	},
 
 	start: function(app) {
-		var	config = require('./config');
-		
-		app.listen(config.port);
-		
-		console.log('listening server on port ' + config.port);
+		var port = process.env.PORT || 3000;
+		app.listen(port);
+
+		console.log('listening server on port ' + port);
 
 		return app;
 	}
