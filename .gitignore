@@ -50,4 +50,7 @@ app/bower_components
 # dotenv environment variables file
 .env
 
+# dotcred azure deployment user credentials file
+*.credentials
+
 Contact GitHub 
