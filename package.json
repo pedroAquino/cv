@@ -16,7 +16,7 @@
     "url": "https://github.com/pedroAquino/OnlineCV/issues"
   },
   "engines": {
-      "node": ">=6.9.1"
+    "node": ">=6.9.1"
   },
   "homepage": "https://github.com/pedroAquino/OnlineCV#readme",
   "dependencies": {

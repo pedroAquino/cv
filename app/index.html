@@ -44,15 +44,20 @@
                    <div class="col-xs-11">
                       <h3 class="subtitle"><%= habilities.title%></h3>
                       <div class="state-hidden-print">
+                        <ul>
                         <% habilities.content.forEach(function(item){ %>
-                            <div class="top-distance">
+                            <!-- <div class="top-distance">
                                 <%= item.topic %>
                                 <br/>
                                 <div class="bar">
                                     <div class="bar-child <%= item.level %>"></div>
                                 </div>
-                            </div>
+                            </div> -->
+                            <li>
+                                <p class="light-gray state-bold-print"><%= item.topic %></p>
+                            </li>
                         <% }); %>
+                        </ul>
                       </div>
                    </div>
                    <div class="col-xs-11 state-hidden-screen top-distance">
