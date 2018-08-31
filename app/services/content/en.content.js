@@ -38,19 +38,16 @@ module.exports = {
         'title': 'MAIN SKILLS',
         'content': [
             {
-                'topic': 'Angular 2+',
-                'level': 'advanced',
-                'levelText': 'advanced'
+                'topic': 'Angular',
+                'icon': ''
             },
             {
-                'topic': 'Angular.js',
-                'level': 'advanced',
-                'levelText': 'advanced'
+                'topic': 'HTML5',
+                'icon': ''
             },
             {
-                'topic': 'HTML5 / Web Accessibility',
-                'level': 'advanced',
-                'levelText': 'advanced'
+                'topic': 'HTML5',
+                'icon': ''
             },
             {
                 'topic': 'CSS3 / CSS Compilers (SASS / Stylus)',
