@@ -39,75 +39,60 @@ module.exports = {
         'title': 'MAIN SKILLS',
         'content': [
             {
+                'topic': 'Javascript',
+                'level': 'advanced',
+                'levelText': '7+ years Experience'
+            },
+            {
+                'topic': 'React',
+                'level': 'advanced',
+                'levelText': '1 year experience'
+            },
+            {
                 'topic': 'Angular 2+',
                 'level': 'advanced',
-                'levelText': 'advanced'
+                'levelText': '1 year experience'
             },
             {
                 'topic': 'Angular.js',
                 'level': 'advanced',
-                'levelText': 'advanced'
+                'levelText': '2 years experience'
             },
             {
-                'topic': 'HTML5 / Web Accessibility',
+                'topic': 'Web Accessibility',
                 'level': 'advanced',
-                'levelText': 'advanced'
+                'levelText': '1 year experience'
             },
             {
-                'topic': 'CSS3 / CSS Compilers (SASS / Stylus)',
+                'topic': 'HTML5',
                 'level': 'advanced',
-                'levelText': 'advanced'
+                'levelText': '7+ years experience'
             },
             {
-                'topic': 'ASP.NET (MVC / Web Forms / WCF / Web API), C#',
+                'topic': 'CSS3 / CSS Compilers (SASS / Stylus) / CssinJS',
                 'level': 'advanced',
-                'levelText': 'advanced'
+                'levelText': '7+ years experience'
             },
             {
                 'topic': 'Hybrid Mobile (Web View) / Ionic / Sencha Touch',
                 'level': 'intermediate',
-                'levelText': 'intermediate'
+                'levelText': '3 years experience'
             },
             {
-                'topic': 'CSS Animations',
-                'level': 'intermediate',
-                'levelText': 'intermediate'
-            },
-            {
-                'topic': 'DevOps / CI Configuration (Team City / Cruise Control.NET)',
-                'level': 'basic',
-                'levelText': 'basic'
+                'topic': 'ASP.NET (MVC / Web Forms / WCF / Web API), C#',
+                'level': 'advanced',
+                'levelText': '7+ years experience'
             },
             {
                 'topic': 'node.js',
-                'level': 'basic',
-                'levelText': 'basic'
-            },
-            {
-                'topic': 'python',
-                'level': 'basic',
-                'levelText': 'basic'
+                'level': 'intermediate',
+                'levelText': '2 years experience'
             },
         ]
     },
     'certifications': {
         'title': 'CERTIFICATIONS',
         'emitters': [
-            /*
-            {
-                'name': 'Scrum.org',
-                'certificates': [
-                    {
-                        'title': 'scrum master 1.',
-                        'address': '#'
-                    },
-                    {
-                        'title': 'scrum master 2.',
-                        'address': '#'
-                    }
-                ]
-            },
-            */
             {
                 'name': 'Microsoft (MCSD Web Developer)',
                 'certificates': [
@@ -132,13 +117,14 @@ module.exports = {
                 'periods': ['november / 2016 - current'],
                 'role': 'frontend developer',
                 'description': `BRQ is a software development consulting company focused on the financial market.
-                Currently I work as a consultant for Itau Unibanco, the biggest private bank in
+                There, I worked as a consultant for Itau Unibanco, the biggest private bank in
                 Brazil. My key responsibilities are developing new features for the bank's mobile
-                app using web technologies on a hybrid approach,`,
+                app using web technologies on a hybrid approach. I'm currently working in an international project, for Dealertrack, one of the biggest car dealing companies in US,`,
                 'activities': {
                     'title': 'main activities',
                     'items': [
-                        'responsive web interfaces using ASP.NET Web Forms',
+                        'develop and maintains React Web application',
+                        'develop and maintain ASP.NET Microservices',
                         'frontend api integrations',
                         'reusable web components with Angular2',
                         'web frontend integration with native mobile app (hybrid approach)'
@@ -147,6 +133,7 @@ module.exports = {
                 'deliveries': {
                     'title': 'deliveries',
                     'items': [
+                        'administration section of the React frontend portal for Dealertrack Brasil',
                         `frontend redesign of saving rescue feature of Itaú's mobile app`,
                         `frontend of life ensurance contracting and canceling features of Itaú's mobile app`
                     ]
